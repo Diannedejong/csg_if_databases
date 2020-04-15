@@ -10,7 +10,7 @@ $leerling['geboortejaar']=2002;
 echo $leerling['voornaam']." ".$leerling['achternaam']." werd geboren in ".$leerling['geboortejaar'].".<br>";
 
 array_reverse($leerling);
-echo "<pre>";
+echo "<s>";
 print_r($leerling);
 echo "</pre>";
 sort($leerling);
