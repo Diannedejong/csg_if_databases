@@ -15,7 +15,7 @@ function dobbelsteen() {
   return $worp;
 }
 
-for ($n=0; $n<20; $n++) {
+for ($n=0; $n<99; $n++) {
   $frequentie[dobbelsteen()]++;  
 }
 
